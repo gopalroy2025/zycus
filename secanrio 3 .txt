@@ -13,7 +13,7 @@ Propose a solution to migrate this application stack to cloud of your choice (AW
 Mention all the provider services you would use and how you would maintain HA and Load Balancing (consider app to be stateless). Mention rationale for each decision.
 
 -------------------------
-answers steps refer the diagram
+answers steps refer the diagram in code 4 
 
  
 I would prefer Openstack to migrate and will follow below steps.
