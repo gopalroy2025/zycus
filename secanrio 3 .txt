@@ -1,0 +1,36 @@
+Assignment 3:
+
+ 
+
+Consider a monolithic java application stack.
+
+Apache Web Server, Apache Tomcat application server with Active MQ and Oracle and MongoDB backend.
+
+ 
+
+Propose a solution to migrate this application stack to cloud of your choice (AWS/OpenStack/Azure).
+
+Mention all the provider services you would use and how you would maintain HA and Load Balancing (consider app to be stateless). Mention rationale for each decision.
+
+-------------------------
+answers steps refer the diagram
+
+ 
+I would prefer Openstack to migrate and will follow below steps.
+
+
+1) I will spawn VM's in cluster for each application. Please find below diagram for the same.
+
+
+2) Install the respective packages into the VM's.
+
+
+3) Will copy the document root for Apache via winscp/scp.
+
+
+4) Also will copy the configuration for each component.
+
+
+5) I will use proxy or mod_jk modules for apache tomcat integration and load balancing.
+
+ 
